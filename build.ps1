@@ -6,6 +6,6 @@ New-Item -ItemType Directory -Force "$root\dist" | Out-Null
 & $csc /nologo /target:winexe /optimize+ /platform:anycpu /codepage:65001 `
     /out:"$root\dist\MidiLink.exe" `
     /r:System.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll `
-    "$root\src\MidiLink.cs"
+    "$root\src\*.cs"
 if ($LASTEXITCODE -ne 0) { throw "Build failed" }
 Write-Host "Built $root\dist\MidiLink.exe"
