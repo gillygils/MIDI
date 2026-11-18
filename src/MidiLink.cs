@@ -1,4 +1,4 @@
-// MIDI Link - send MIDI between two Windows PCs over a network or a direct Ethernet cable.
+﻿// MIDI Link - send MIDI between two Windows PCs over a network or a direct Ethernet cable.
 // Builds with the C# compiler that ships with Windows (.NET Framework 4.8), so the
 // resulting MidiLink.exe runs on any Windows 10/11 PC with nothing to install.
 using System;
@@ -18,8 +18,8 @@ using Microsoft.Win32;
 
 [assembly: System.Reflection.AssemblyTitle("MIDI Link")]
 [assembly: System.Reflection.AssemblyProduct("MIDI Link")]
-[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
-[assembly: System.Reflection.AssemblyFileVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersion("1.1.0.0")]
+[assembly: System.Reflection.AssemblyFileVersion("1.1.0.0")]
 
 namespace MidiLink
 {
